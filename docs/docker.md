@@ -42,13 +42,7 @@ Dockerfile reference: https://docs.docker.com/engine/reference/builder/
 * Go through the reference to understand what they are doing
 
 
-## Dockerised Geth
 
-* Official Docker images for geth: https://hub.docker.com/r/ethereum/client-go/
-* Look at the dockerfile
-* Get a Dockerised geth up and running (will attempt to join public network)
-* Talk through port mappings
-* Attach via exec
 
 
 
