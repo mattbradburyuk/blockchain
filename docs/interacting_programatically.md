@@ -73,7 +73,7 @@ From Node you can interact with geth via the web3 API
 
 You will need to include the following code (or something similar) at the top of the node file. This will give you a web3 object which you can use to communicate with a geth instance
 
-```node.js
+```node
 // web3_setup.js
 
 // require the Web3 module
