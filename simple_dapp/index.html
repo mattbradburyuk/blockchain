@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Simple Dapp</title>
+    <script>src="./node_modules/web3.js"</script>
+    <script src="./app.js"></script>
+
+</head>
+
+<body>
+<h1>Simple Dapp</h1>
+
+<p>(Open dev console to see log messages, paste in accounts at top of js code)</p>
+<p>Current Wallet account:
+<span id="account"></span>
+<button id="refresh_account" onclick="update_account()">Refresh account</button>
+</p>
+
+<br><button id="check_bals" onclick="check_bals()">Check_bals</button>
+<br><br><button id="send_eth" onclick="send_eth()">Send 0.001 ether wallet 1 -> wallet 2</button>
+
+</body>
+</html>
