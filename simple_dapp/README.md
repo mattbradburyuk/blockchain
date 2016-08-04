@@ -1,5 +1,7 @@
 # Simple Dapp
 
+A very simple Dapp for reading balances from (set) accounts and transfering a bit of Ether, all in Chrome/MetaMask without remote server.
+
 1) Need to have MEtaMask installed in chrome + 
 
 * Pointed to the geth you want (eg Dockerised local geth)
