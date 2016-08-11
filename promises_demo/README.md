@@ -36,5 +36,6 @@ function js_test(){
 ```
 
 
-
 Looking at the code shows how promises can be chained together and you can pass values through the promise chain
+
+The page i got most of this from is: http://www.html5rocks.com/en/tutorials/es6/promises/
