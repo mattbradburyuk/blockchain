@@ -1,5 +1,15 @@
 # Quick demo on promises in javascript running in the browser
 
+
+Note: Promises are important because they allow you to run chunks of asynchronous code one after another without ending up in a mess with callbacks flying around everywhere.
+
+The particularly important pattern for ethereum is:
+
+Send transaction (asynchronous) ------then------> wait till confirmed mined (asychronous) -----then-----> do something with the mined transaction
+
+You can't just use synchronous transactions because it will lock the browser up, the browser needs to be free to go and do other stuf whilst it waits for the send/ confirm activities are taking place. In fact Metamask will block any synchronous calls so you really can't when building a Dapp on Metamask.
+
+
 ## To run:
 
 1) start the local server by running: 
